@@ -56,16 +56,10 @@
       .logo-mark {
         width: 32px;
         height: 32px;
-        background: linear-gradient(135deg, var(--gold), var(--gold-dim));
         border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 16px;
-        font-weight: 700;
-        color: var(--bg);
         flex-shrink: 0;
-        text-decoration: none;
+        object-fit: cover;
+        display: block;
       }
       .logo-text {
         font-size: 15px;
@@ -259,11 +253,9 @@
   <body>
     <header>
       <div class="header-inner">
-        <a
-          href="./index.html"
-          class="logo-mark"
-          >ス</a
-        >
+        <a href="./index.html">
+          <img src="./logo_l.png" class="logo-mark" alt="スキマ学習">
+        </a>
         <a
           href="https://k38.github.io/public-pages/sukima-study/"
           class="logo-text"
@@ -541,11 +533,7 @@
     <footer>
       <div class="footer-inner">
         <div class="footer-logo">
-          <span
-            class="logo-mark"
-            style="width: 28px; height: 28px; font-size: 14px"
-            >ス</span
-          >
+          <img src="./logo_l.png" class="logo-mark" style="width: 28px; height: 28px;" alt="スキマ学習">
           <span class="logo-text">スキマ学習</span>
         </div>
         <p class="footer-tagline">毎日5分で、知識が積み上がる。</p>
